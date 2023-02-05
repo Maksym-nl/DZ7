@@ -1,0 +1,42 @@
+@media screen and (min-width: 1200px) {
+    .container {
+      width: 1158px;
+    }
+    .adge-list {
+        display: flex;
+        gap: 24px;
+      } 
+      .adge-item {
+        width: calc((100% - 72px) / 4);
+        height: 112px;
+        margin-bottom: 8px;
+    }
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .customers-list {
+        display: flex;
+        gap: 24px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .wrap {
+        margin-left: 120px;
+        margin-right: 80px;
+    }
+    .input-user-name {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .adg-link {
+        display: none;
+    }
+    .container-servis {
+        display: none;
+     }
+   
+}
